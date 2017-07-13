@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <AutoCompleteTextView
+        android:id="@+id/autotextview"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:hint="Product Name" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="88dp"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:hint="Quantity" />
+
+    <EditText
+        android:id="@+id/unit"
+        android:layout_width="112dp"
+        android:layout_height="40dp"
+        android:hint="Unit" />
+</LinearLayout>
