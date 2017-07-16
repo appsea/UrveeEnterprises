@@ -1,4 +1,4 @@
-package com.exuberant.urvitraders.model;
+package com.exuberant.urveeenterprises.model;
 
 import java.util.Collection;
 

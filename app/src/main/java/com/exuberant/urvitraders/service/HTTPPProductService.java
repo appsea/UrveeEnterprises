@@ -1,4 +1,4 @@
-package com.exuberant.urvitraders.service;
+package com.exuberant.urveeenterprises.service;
 
 class HTTPPProductService {
 

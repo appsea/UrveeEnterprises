@@ -1,6 +1,6 @@
-package com.exuberant.urvitraders.model;
+package com.exuberant.urveeenterprises.model;
 
-import com.exuberant.urvitraders.util.MultiValueMap;
+import com.exuberant.urveeenterprises.util.MultiValueMap;
 
 import java.util.ArrayList;
 import java.util.Collection;

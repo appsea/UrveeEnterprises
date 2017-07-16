@@ -1,4 +1,4 @@
-package com.exuberant.urvitraders;
+package com.exuberant.urveeenterprises;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -16,17 +16,17 @@ import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.exuberant.urvitraders.delegates.ServerSocketDelegate;
-import com.exuberant.urvitraders.model.Product;
-import com.exuberant.urvitraders.model.ProductBuilder;
+import com.exuberant.urveeenterprises.delegates.ServerSocketDelegate;
+import com.exuberant.urveeenterprises.model.Product;
+import com.exuberant.urveeenterprises.model.ProductBuilder;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import static com.exuberant.urvitraders.R.id.autotextview;
-import static com.exuberant.urvitraders.R.id.quantity;
-import static com.exuberant.urvitraders.R.id.unit;
+import static com.exuberant.urveeenterprises.R.id.autotextview;
+import static com.exuberant.urveeenterprises.R.id.quantity;
+import static com.exuberant.urveeenterprises.R.id.unit;
 
 public class PlaceOrderActivity extends AppCompatActivity {
 

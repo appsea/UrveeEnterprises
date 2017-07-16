@@ -1,4 +1,4 @@
-package com.exuberant.urvitraders;
+package com.exuberant.urveeenterprises;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.exuberant.urvitraders", appContext.getPackageName());
+        assertEquals("com.exuberant.urveeenterprises", appContext.getPackageName());
     }
 }

@@ -1,6 +1,6 @@
-package com.exuberant.urvitraders.model;
+package com.exuberant.urveeenterprises.model;
 
-import com.exuberant.urvitraders.service.ProductServiceHandler;
+import com.exuberant.urveeenterprises.service.ProductServiceHandler;
 
 import java.util.Collection;
 

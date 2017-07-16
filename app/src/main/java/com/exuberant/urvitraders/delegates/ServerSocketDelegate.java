@@ -1,9 +1,9 @@
-package com.exuberant.urvitraders.delegates;
+package com.exuberant.urveeenterprises.delegates;
 
-import com.exuberant.urvitraders.model.AndroidServerSocket;
-import com.exuberant.urvitraders.model.MetaProduct;
-import com.exuberant.urvitraders.model.Product;
-import com.exuberant.urvitraders.model.ServerSocket;
+import com.exuberant.urveeenterprises.model.AndroidServerSocket;
+import com.exuberant.urveeenterprises.model.MetaProduct;
+import com.exuberant.urveeenterprises.model.Product;
+import com.exuberant.urveeenterprises.model.ServerSocket;
 
 import java.util.ArrayList;
 import java.util.Collection;

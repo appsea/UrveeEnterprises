@@ -1,7 +1,7 @@
-package com.exuberant.urvitraders.service;
+package com.exuberant.urveeenterprises.service;
 
-import com.exuberant.urvitraders.model.MetaProduct;
-import com.exuberant.urvitraders.model.Product;
+import com.exuberant.urveeenterprises.model.MetaProduct;
+import com.exuberant.urveeenterprises.model.Product;
 
 import java.util.Collection;
 

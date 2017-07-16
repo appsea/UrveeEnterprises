@@ -1,4 +1,4 @@
-package com.exuberant.urvitraders;
+package com.exuberant.urveeenterprises;
 
 import org.junit.Test;
 
