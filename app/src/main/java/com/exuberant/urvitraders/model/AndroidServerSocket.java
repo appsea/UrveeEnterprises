@@ -9,7 +9,7 @@ public class AndroidServerSocket implements ServerSocket {
     private ProductServiceHandler productServiceHandler = new ProductServiceHandler();
 
     @Override
-    public Collection<Product> fetchProducts() {
+    public Collection<MetaProduct> fetchProducts() {
         return productServiceHandler.fetchProducts();
     }
 }

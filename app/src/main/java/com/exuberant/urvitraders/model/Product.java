@@ -1,15 +1,20 @@
 package com.exuberant.urvitraders.model;
 
 import java.util.Collection;
+import java.util.HashSet;
 
 public class Product {
 
     private String name;
-    private Collection<Unit> unit;
+    private Collection<Quantity> quantities = new HashSet<>();
 
-    public Product(String name, Collection<Unit> unit) {
+    public Product(String name, Collection<Quantity> quantities) {
         this.name = name;
-        this.unit = unit;
+        this.quantities = quantities;
+    }
+
+    private void addQuantity(String quantity, String unit){
+        quantities.add(new Quantity(quantity, unit));
     }
 
     public String getName() {
@@ -20,11 +25,35 @@ public class Product {
         this.name = name;
     }
 
-    public Collection<Unit> getUnit() {
-        return unit;
+    public void setQuantities(Collection<Quantity> quantities) {
+        this.quantities = quantities;
     }
 
-    public void setUnit(Collection<Unit> unit) {
-        this.unit = unit;
+    public Collection<Quantity> getQuantities() {
+        return quantities;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Product product = (Product) o;
+
+        if (name != null ? !name.equals(product.name) : product.name != null) return false;
+        return quantities != null ? quantities.containsAll(product.quantities) : product.quantities == null;
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + (quantities != null ? quantities.hashCode() : 0);
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Product: " + name + " " + quantities;
     }
 }

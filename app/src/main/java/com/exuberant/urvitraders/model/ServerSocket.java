@@ -4,5 +4,5 @@ import java.util.Collection;
 
 public interface ServerSocket {
 
-    Collection<Product> fetchProducts();
+    Collection<MetaProduct> fetchProducts();
 }

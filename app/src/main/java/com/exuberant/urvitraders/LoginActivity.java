@@ -29,7 +29,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.exuberant.urvitraders.urvitraders.R;
+import com.exuberant.urvitraders.R;
 
 import java.util.ArrayList;
 import java.util.List;

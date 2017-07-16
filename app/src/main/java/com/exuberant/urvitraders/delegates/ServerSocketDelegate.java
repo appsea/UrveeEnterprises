@@ -1,6 +1,7 @@
 package com.exuberant.urvitraders.delegates;
 
 import com.exuberant.urvitraders.model.AndroidServerSocket;
+import com.exuberant.urvitraders.model.MetaProduct;
 import com.exuberant.urvitraders.model.Product;
 import com.exuberant.urvitraders.model.ServerSocket;
 
@@ -16,7 +17,7 @@ public class ServerSocketDelegate {
 
     private ServerSocket serverSocket = new AndroidServerSocket();
 
-    private Collection<Product> products;
+    private Collection<MetaProduct> products;
 
     public ServerSocketDelegate() {
         this.products = serverSocket.fetchProducts();
@@ -24,7 +25,7 @@ public class ServerSocketDelegate {
 
     public List<String> getProductNames() {
         List<String> productNames = new ArrayList<>();
-        for (Product product : products) {
+        for (MetaProduct product : products) {
             productNames.add(product.getName());
         }
         return productNames;
